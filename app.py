@@ -4,6 +4,7 @@ import json
 
 from flask import Flask, request, jsonify
 
+print "Hellow from ws_web"
 
 app = Flask(__name__)
 app.debug = True
