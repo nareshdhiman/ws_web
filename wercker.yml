@@ -30,7 +30,7 @@ dockerhub:
   - internal/docker-push:
     username: $DOCKER_USER
     password: $DOCKER_PASS
-    repository: wercker/frontend
+    repository: nareshdhiman/frontend
     cmd: "python /pipeline/source/app.py"
     ports: 5001
 deploy-to-ecs:
